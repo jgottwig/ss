@@ -1,0 +1,169 @@
+{
+  "hippo:templates":   {
+    "en":     {
+      "new-resource-bundle": "new resource bundle",
+      "new-strangeshuttle-Variants-folder": "new folder",
+      "new-blog-folder": "new blog folder",
+      "new-untranslated-folder": "new untranslated folder",
+      "new-blogauthor-folder": "new blog author folder",
+      "new-blog-document": "new blog post",
+      "new-strangeshuttle-Variants-image": "New Image",
+      "new-blogauthor-document": "new blog author"
+    },
+    "nl":     {
+      "new-resource-bundle": "nieuwe resource bundle",
+      "new-strangeshuttle-Variants-folder": "nieuwe map",
+      "new-blog-folder": "nieuwe banner map",
+      "new-blogauthor-folder": "nieuwe blog auteur map",
+      "new-untranslated-folder": "nieuwe onvertaalde map",
+      "new-blog-document": "nieuwe blog post map",
+      "new-strangeshuttle-Variants-image": "Nieuwe Afbeelding",
+      "new-blogauthor-document": "nieuwe blog auteur"
+    },
+    "de":     {
+      "new-resource-bundle": "Neues Resource-Bundle",
+      "new-strangeshuttle-Variants-folder": "Neuer Ordner",
+      "new-blog-folder": "Neuer Blog-Ordner",
+      "new-untranslated-folder": "Neuer nicht übersetzter Ordner",
+      "new-blogauthor-folder": "Neuer Blogger-Ordner",
+      "new-blog-document": "Neuer Blog-Post",
+      "new-strangeshuttle-Variants-image": "Neues Bild",
+      "new-blogauthor-document": "Neuer Blogger"
+    },
+    "fr":     {
+      "new-resource-bundle": "nouveau resource bundle",
+      "new-strangeshuttle-Variants-folder": "un nouveau dossier",
+      "new-blog-folder": "nouveau dossier post blog",
+      "new-untranslated-folder": "nouveau dossier non traduit",
+      "new-blogauthor-folder": "nouveau dossier auteur blog",
+      "new-blog-document": "nouveau post blog",
+      "new-strangeshuttle-Variants-image": "Nouvelle image",
+      "new-blogauthor-document": "nouvel auteur blog"
+    },
+    "zh":     {
+      "new-strangeshuttle-Variants-folder": "新文件夹",
+      "new-strangeshuttle-Variants-image": "新图片"
+    }
+  },
+  "hippo:types":   {
+    "strangeshuttle:blogpost":     {
+      "en":       {
+        "jcr:name": "Blogpost",
+        "strangeshuttle:categories": "Categories",
+        "strangeshuttle:authors": "Author(s)",
+        "strangeshuttle:content": "Content",
+        "strangeshuttle:publicationdate": "Publication Date",
+        "strangeshuttle:authors#hint": "Link to author document(s)",
+        "strangeshuttle:introduction": "Introduction",
+        "strangeshuttle:title": "Title"
+      },
+      "nl":       {
+        "jcr:name": "Blogpost",
+        "strangeshuttle:categories": "Categorieën",
+        "strangeshuttle:authors": "Auteur(s)",
+        "strangeshuttle:content": "Inhoud",
+        "strangeshuttle:publicationdate": "Publicatiedatum",
+        "strangeshuttle:authors#hint": "Link naar auteur document(en)",
+        "strangeshuttle:introduction": "Introductie",
+        "strangeshuttle:title": "Titel"
+      },
+      "fr":       {
+        "jcr:name": "Post blog",
+        "strangeshuttle:categories": "Catégories",
+        "strangeshuttle:authors": "Auteur(s)",
+        "strangeshuttle:content": "Contenu",
+        "strangeshuttle:publicationdate": "Date de publication",
+        "strangeshuttle:authors#hint": "Lien vers le(s) document(s) de l'auteur",
+        "strangeshuttle:introduction": "Introduction",
+        "strangeshuttle:title": "Titre"
+      },
+      "de":       {
+        "jcr:name": "Blog-Post",
+        "strangeshuttle:categories": "Kategorien",
+        "strangeshuttle:authors": "Verfasser",
+        "strangeshuttle:content": "Inhalt",
+        "strangeshuttle:publicationdate": "Publikationsdatum",
+        "strangeshuttle:authors#hint": "Link zu Verfasserdokument(en)",
+        "strangeshuttle:introduction": "Einführung",
+        "strangeshuttle:title": "Titel"
+      }
+    },
+    "strangeshuttle:author":     {
+      "en":       {
+        "jcr:name": "Author",
+        "strangeshuttle:content#hint": "Information about the author",
+        "strangeshuttle:fullname#hint": "Full name",
+        "strangeshuttle:accounts": "Accounts",
+        "strangeshuttle:photo#hint": "Photo of the author",
+        "strangeshuttle:content": "Description",
+        "strangeshuttle:photo": "Photo",
+        "strangeshuttle:role": "Role",
+        "strangeshuttle:accounts#hint": "External social media accounts",
+        "strangeshuttle:fullname": "Name"
+      },
+      "nl":       {
+        "jcr:name": "Auteur",
+        "strangeshuttle:content#hint": "Informatie over de auteur",
+        "strangeshuttle:fullname#hint": "Volledige naam",
+        "strangeshuttle:accounts": "Accounts",
+        "strangeshuttle:photo#hint": "Foto van de auteur",
+        "strangeshuttle:content": "Beschrijving",
+        "strangeshuttle:photo": "Foto",
+        "strangeshuttle:role": "Rol",
+        "strangeshuttle:accounts#hint": "Externe social media accounts",
+        "strangeshuttle:fullname": "Naam"
+      },
+      "fr":       {
+        "jcr:name": "Auteur",
+        "strangeshuttle:content#hint": "Informations sur l'auteur",
+        "strangeshuttle:fullname#hint": "Nom complet",
+        "strangeshuttle:accounts": "Konten",
+        "strangeshuttle:photo#hint": "Photo de l'auteur",
+        "strangeshuttle:content": "Description",
+        "strangeshuttle:photo": "Photo",
+        "strangeshuttle:role": "Rôle",
+        "strangeshuttle:accounts#hint": "Comptes médias sociaux externes",
+        "strangeshuttle:fullname": "Nom"
+      },
+      "de":       {
+        "jcr:name": "Verfasser",
+        "strangeshuttle:content#hint": "Informationen über den Verfasser",
+        "strangeshuttle:fullname#hint": "Vollständiger Name",
+        "strangeshuttle:accounts": "Comptes",
+        "strangeshuttle:photo#hint": "Foto des Verfassers",
+        "strangeshuttle:content": "Beschreibung",
+        "strangeshuttle:photo": "Foto",
+        "strangeshuttle:role": "Rolle",
+        "strangeshuttle:accounts#hint": "Externe Konten soziale Medien",
+        "strangeshuttle:fullname": "Name"
+      }
+    },
+    "strangeshuttle:account":     {
+      "en":       {
+        "strangeshuttle:type": "Type",
+        "jcr:name": "Account (Compound)",
+        "strangeshuttle:link": "Link",
+        "strangeshuttle:link#hint": "External link to the account"
+      },
+      "nl":       {
+        "strangeshuttle:type": "Soort",
+        "jcr:name": "Account (Compound)",
+        "strangeshuttle:link": "Link",
+        "strangeshuttle:link#hint": "Externe link naar het account"
+      },
+      "fr":       {
+        "strangeshuttle:type": "Type",
+        "jcr:name": "Compte (Compound)",
+        "strangeshuttle:link": "Lien",
+        "strangeshuttle:link#hint": "Lien externe vers le compte"
+      },
+      "de":       {
+        "strangeshuttle:type": "Art",
+        "jcr:name": "Konto (Compound)",
+        "strangeshuttle:link": "Link",
+        "strangeshuttle:link#hint": "Externer Link zum Konto"
+      }
+    },
+    "strangeshuttle:Variants": {}
+  }
+}

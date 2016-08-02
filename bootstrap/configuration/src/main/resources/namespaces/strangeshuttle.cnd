@@ -1,0 +1,28 @@
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippogallery'='http://www.onehippo.org/jcr/hippogallery/nt/2.0'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'strangeshuttle'='http://www.onehippo.org/strangeshuttle/nt/1.0'>
+
+[strangeshuttle:Variants] > hippogallery:imageset, hippogallery:relaxed
+  orderable
+
+[strangeshuttle:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[strangeshuttle:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[strangeshuttle:author] > hippostd:relaxed, hippotranslation:translated, strangeshuttle:basedocument
+  orderable
+
+[strangeshuttle:basicpage] > hippostd:relaxed, hippotranslation:translated, strangeshuttle:basedocument
+  orderable
+
+[strangeshuttle:blogpost] > hippostd:relaxed, hippotranslation:translated, strangeshuttle:basedocument
+  orderable
+
+[strangeshuttle:story] > hippostd:relaxed, hippotranslation:translated, strangeshuttle:basedocument
+  orderable
+
